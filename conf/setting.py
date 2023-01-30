@@ -27,7 +27,7 @@ class BartSetting(BaseSetting):
     replace_value = 0.3
 
     model_describe = 'webqsp training'
-    work_dir_suffix = '_webqsp_du_multi'
+    work_dir_suffix = '_webqsp_multi'
     input_dir = ROOT_DIR.joinpath('data/dataset_webqsp/')
     work_dir = ROOT_DIR.joinpath('data/output_dir/Bart_Program/work_dir{}'.format(work_dir_suffix))
     # save_dir = ROOT_DIR.joinpath('logs')  # 'path to save checkpoints and logs'
